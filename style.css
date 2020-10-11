@@ -1,0 +1,145 @@
+body {
+  background-color: rgb(24, 24, 24);
+  height: 100%;
+}
+
+a:hover{
+  color:rgb(7, 180, 7) ;
+}
+
+footer, .navbar { 
+  background-color: black; 
+} 
+
+ul.timeline {
+  list-style-type: none;
+  position: relative;
+}
+
+ul.timeline:before {
+  content: ' ';
+  background: white;
+  display: inline-block;
+  position: absolute;
+  left: 29px;
+  width: 2px;
+  height: 100%;
+  z-index: 400;
+}
+
+ul.timeline > li {
+  margin: 20px 0;
+  padding-left: 20px;
+}
+
+ul.timeline > li:before {
+  content: ' ';
+  background:rgb(7, 180, 7);
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  left: 20px;
+  width: 20px;
+  height: 20px;
+  z-index: 400;
+}
+
+html, body{
+  height:100%; 
+  margin:0;
+  padding:0
+}
+ 
+.container-fluid{
+  height:100%;
+  display:table;
+  width: 100%;
+  padding: 0;
+}
+ 
+.row-fluid {
+  height: 100%; 
+  display:table-cell; 
+  vertical-align: middle;
+}
+ 
+
+.centering {
+  float:none;
+  margin:0 auto;
+}
+
+.indexbody { 
+  background: url('bg.png') no-repeat center center fixed; 
+  background-size: cover;
+}
+
+.indexcontainer{
+  padding: 25px;   
+}    
+
+.jt{
+  background-color: transparent; color: white;
+}
+
+.fwb{
+  font-weight: bold;
+}
+
+.fsxl{
+  font-size: x-large;
+}
+
+.fsl{
+  font-size: large;
+}
+
+.fsxxl{
+  font-size: xx-large;
+}
+
+.cgn{
+  color:rgb(7, 180, 7);
+}
+
+.fwber{
+  font-weight: bolder; 
+}
+
+.fs36{
+  font-size: 36px;
+}
+
+
+.fs60{
+  font-size: 60px;
+}
+
+.aboutp{
+  margin-top: 90px; 
+  margin-bottom: 85px; 
+  color: white; 
+  background-color: rgba(0, 0, 0, 0.383); 
+}
+
+.ml3p{
+  margin-left: 3%;
+}
+
+.fp{
+  font-size: xx-large; 
+  padding-top: 0.3cm; 
+  letter-spacing: 0.3cm;
+}
+
+.w100p{
+  width: 100%;
+}
+
+.cwht{
+  color: white;
+}
+
+.bgcrbgb{
+  background-color: rgba(255, 255, 255, 0.061);
+}

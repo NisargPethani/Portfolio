@@ -3,7 +3,7 @@
 ## About Website
    - I have made a personal website showing my all skills
    - open `2020202012/index.html`
-   - You can check [GitPage](https://nisargpethani.github.io/potfolio/index.html)
+   - You can check [GitPage](https://nisargpethani.github.io/Portfolio/index.html)
 
 ## Web Designing 
    - Following tools/Language used for better user experience
